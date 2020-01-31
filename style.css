@@ -1,0 +1,24 @@
+body {
+  padding: 10vh 20vw;
+}
+
+h1 {
+  text-align: center;
+}
+
+.outer {
+  border: 1px solid grey;
+  padding: 10px;
+  height: 400px;
+  overflow-y: scroll;
+  position: relative;
+}
+
+.inner {
+  background-color: salmon;
+  text-align: center;
+  height: 200px;
+  max-width: 100%;
+  line-height: 200px;
+  margin-bottom: 10px;
+}
